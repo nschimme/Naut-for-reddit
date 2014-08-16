@@ -1,9 +1,9 @@
-Naut
+Naut for Yahoo
 ===============
 
 Naut is a css theme you can use on reddit.com. It's free to use and any subreddit can use and edit it. Visit /r/Naut to preview the theme.
 
-![Naut as used on /r/Google](http://i.imgur.com/Q4Dt3qD.png)
+![Naut as used on /r/Yahoo](http://i.imgur.com/Q4Dt3qD.png)
 
 
 Installation Instructions

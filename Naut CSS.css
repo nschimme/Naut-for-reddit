@@ -166,7 +166,7 @@
 		/* Header Image */
 		#header {
 			height: 167px;
-			background: #2a2b2e url(%%headerimg%%) no-repeat fixed 50% 0%;
+			background: #440099 url(%%headerimg%%) no-repeat fixed 50% 0%;
 			border-bottom: 0px solid;
 			overflow: visible !important;
 
@@ -205,15 +205,16 @@
 				display: block;
 				visibility: visible !important;
 				position: absolute;
-				left: 8px;
+				left: 50%;
 				z-index: 99;
-				background-image: url(%%logo%%);
+				background-image: url(%%biglogo%%);
 				background-position: 0px 0px;
 				background-repeat: no-repeat;
+				background-size: 50%;
 				text-indent: -9999px;
 			}
 
-				.pagename a:hover {background-position: 0px -77px;}
+				/* .pagename a:hover {background-position: 0px -77px;} */
 
 
 				.pagename {visibility: hidden;}
@@ -466,6 +467,18 @@
 					.account-activity-box, .sidebox.create, .morelink .nub {display: none;}
 			/* Subreddit name sidebar */
 			.titlebox h1 a {
+				background-color: #fff;
+				background-image: url(%%purplelogo%%);
+				background-position: center top;
+				background-repeat: no-repeat;
+				position: absolute;
+				margin-top: 5px;
+				width: 300px;
+				height: 48px;
+				top: 201px;
+				right: 10px;
+				text-indent: -9999px;
+				/*
 				position: absolute;
 				top: 211px;
 				margin: 0px;
@@ -476,6 +489,7 @@
 				text-transform: capitalize;
 				font-size: 25px;
 				font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+				*/
 			}
 			
 				.titlebox h1 a:hover {color: #5b92fa;text-decoration: none;}
@@ -2318,7 +2332,7 @@
 
 		/* My subreddit mainly uses SELF posts */
 
-			.sidebox.submit.submit-link {display: none;} 
+			/*.sidebox.submit.submit-link {display: none;} */
 	
 		/* My subreddit mainly uses LINK posts */
 			/* Then add to the line above and remove  from
@@ -2331,21 +2345,22 @@
 
 	/* Submit page message */
 		.formtabs-content .infobar:before {
-			content: "Here you can set text that users will see when submitting."; /* Don't delete the " "*/
+			content: "Feel free to post news about Yahoo and discussions about what you like and don't like about Yahoo sites. If you need help with your Yahoo account or are having technical problems using a Yahoo site or product, feel free to post about that too!"; /* Don't delete the " "*/
 		}
 
 	/* Subscriber Name */
-		div.titlebox span.number:after {content: " readers";} /* Leave the space before the name! */
+		div.titlebox span.number:after {content: " yahoos";} /* Leave the space before the name! */
 
 	/* --------------------------- */
 
 	/* CUSTOM LOGO CSS */
 		.pagename a {
-			top: 84px; /* The length the logo is moved from the top of the page */
-			width: 185px; /* TOTAL Image width */
-			height: 43px; /* 50% of the TOTAL height of the image. */
+			top: 25px; /* The length the logo is moved from the top of the page */
+			width: 861px; /* TOTAL Image width */
+			margin-left: -215px; /* This HAS to be ->50%< of the TOTAL image width. Don't delete the MINUS! */
+			height: 100px; /* 50% of the TOTAL height of the image. */
 		}
 	
-			.pagename a:hover {background-position: 0px -43px;} /* Replace the 77 with your height */
+			/* .pagename a:hover {background-position: 0px -43px;} */ /* Replace the 77 with your height */
 
 	/* --------------------------- */
